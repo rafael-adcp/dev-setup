@@ -22,7 +22,7 @@ Bash alias are available [here](./dotfiles/dotfiles.md)
 
 [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-[Docker])(https://docs.docker.com/desktop/windows/install/)
+[Docker](https://docs.docker.com/desktop/windows/install/)
 
 [Workbench](https://www.mysql.com/products/workbench/) : mysql client
 
