@@ -1,5 +1,8 @@
 # DEV SETUP
 
+## Bash alias
+Bash alias are available [here](./dotfiles/dotfiles.md)
+
 ## App's / cli's
 
 [Postman](https://www.getpostman.com/):  api caller
@@ -24,6 +27,10 @@
 [Workbench](https://www.mysql.com/products/workbench/) : mysql client
 
 [kubectl](https://kubernetes.io/docs/tasks/tools/)
+
+[Vertical Client (vsql)](https://www.vertica.com/download/vertica/client-drivers/)
+
+[s3 client (s3cmd)](https://s3tools.org/download)
 
 
 <hr>
