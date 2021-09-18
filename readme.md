@@ -4,27 +4,32 @@
 
 [Postman](https://www.getpostman.com/):  api caller
 
-[Git bash]()
+[Git bash](https://git-scm.com/downloads)
 
-[Visual Studio Code]()
+[Visual Studio Code](https://code.visualstudio.com/)
+```
+  # on settings.json add this to highligh current opened file
 
-[nvm]()
+  "workbench.colorCustomizations": {
+      //"tab.activeBorder": "#ff000073",
+      //"tab.activeBorderTop": "#ff000073",
+      "tab.activeBackground": "#ff000073"
+  }
+```
 
-[Docker])()
+[nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-[Virtual box]()
+[Docker])(https://docs.docker.com/desktop/windows/install/)
 
-[Workbench]() : mysql client
+[Workbench](https://www.mysql.com/products/workbench/) : mysql client
 
-[kubectl]()
-
-[Minikube])()
+[kubectl](https://kubernetes.io/docs/tasks/tools/)
 
 
 <hr>
 
-## Terminal
-* Windows: Hyper - terminal with multi tabs and splits
+## Terminal with multi tabs and splits
+* Windows: [Hyper](https://hyper.is/)
 * Macos: [iterm2](https://www.iterm2.com/)
 
 <hr>
@@ -38,17 +43,19 @@
     https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html
     
 * [fzf](https://github.com/junegunn/fzf) - fuzzy search on terminal (steroids for ctr + r)
-git clone https://github.com/junegunn/fzf && ./install --all
-source ~/.bashrc
+  ```
+  git clone https://github.com/junegunn/fzf && ./install --all
+  source ~/.bashrc
+  ```
 
-  *for windows:* `choco install fzf` also fzf currently doesn't support `--height` on Windows, define it to export FZF_CTRL_R_OPTS='--no-height' to work around the issue.
-append this to .bash_profile
+  *for windows:* `choco install fzf` also fzf currently doesn't support `--height` on Windows, define it to export `FZF_CTRL_R_OPTS='--no-height'` to work around the issue.
+  append this to `.bash_profile`
     ```
     export FZF_CTRL_R_OPTS='--no-height'
     [ -f ~/.fzf.bash ] && source ~/.fzf.bash
     ```
-* [terminal searcher](https://github.com/ggreer/the_silver_searcher)
+* [terminal searcher (AG)](https://github.com/ggreer/the_silver_searcher)
 
-* [quick jump to folders based on usage](https://github.com/wting/autojump)
+* [quick jump to folders based on usage (J)](https://github.com/wting/autojump)
 <hr>
 
