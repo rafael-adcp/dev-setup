@@ -7,6 +7,8 @@ Bash alias are available [here](./dotfiles/dotfiles.md)
 
 [Postman](https://www.getpostman.com/):  api caller
 
+[Bruno](https://www.usebruno.com/):  api caller, offline and keeps the collections as plain files you can commit
+
 [Git bash](https://git-scm.com/downloads)
 
 [Visual Studio Code](https://code.visualstudio.com/)
@@ -26,9 +28,11 @@ Bash alias are available [here](./dotfiles/dotfiles.md)
 
 [Workbench](https://www.mysql.com/products/workbench/) : mysql client
 
+[DBeaver](https://dbeaver.io/) : one sql client for all of them (mysql, postgres, vertica, sqlite)
+
 [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
-[Vertical Client (vsql)](https://www.vertica.com/download/vertica/client-drivers/)
+[Vertica Client (vsql)](https://www.vertica.com/download/vertica/client-drivers/)
 
 [s3 client (s3cmd)](https://s3tools.org/download)
 
@@ -38,6 +42,12 @@ Bash alias are available [here](./dotfiles/dotfiles.md)
 ## Terminal with multi tabs and splits
 * Windows: [Hyper](https://hyper.is/)
 * Macos: [iterm2](https://www.iterm2.com/)
+
+For when the tabs are coding agents instead of shells:
+
+* [Orca](https://github.com/stablyai/orca) - runs several CLI coding agents side by side, each one in its own git worktree
+* [herdr](https://github.com/ogulcancelik/herdr) - terminal multiplexer that knows about agents: persistent workspaces, tabs, panes and status detection
+  * our panels for it: [herdr-personal-cockpit](https://github.com/rafael-adcp/herdr-personal-cockpit) - open pull requests and a kraken task queue, inside herdr
 
 <hr>
 
@@ -64,5 +74,15 @@ Bash alias are available [here](./dotfiles/dotfiles.md)
 * [terminal searcher (AG)](https://github.com/ggreer/the_silver_searcher)
 
 * [quick jump to folders based on usage (J)](https://github.com/wting/autojump)
+<hr>
+
+## Harness
+
+The coding agent itself - the thing the terminals above are running.
+
+* [Pi](https://pi.dev/) - terminal coding agent, extended through skills, packages and extensions
+
+* our customizations: [claude-config](https://github.com/rafael-adcp/claude-config) - personal rules, slash commands and skills, symlinked into `~/.claude` by `install.sh` (`install.ps1` on Windows)
+
 <hr>
 
